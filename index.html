@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" as="image" href="./images/image1.jpg" />
+    <link rel="preload" as="image" href="./images/image2.jpg" />
+    <link rel="preload" as="image" href="./images/image3.jpg" />
+    <title>Elene's Bakery</title>
+  </head>
+  <body id="top">
+    <!-- Preload -->
+    <div class="preload" data-preload>
+      <div class="circle"></div>
+      <p class="text">Elene's Bakery</p>
+    </div>
+
+    <!-- TopBar -->
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Tbilisi, Georgia</span>
+        </address>
+        <div class="separator"></div>
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Find a Vacation Everyday</span>
+        </div>
+        <a
+          href="https://www.instagram.com/elenetarkhnishvili/"
+          class="topbar-item link"
+          target="_blank"
+        >
+          <div class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+        </a>
+        <div class="separator"></div>
+        <a
+          href="https://www.tiktok.com/@elenetarkhnishvili"
+          class="topbar-item link"
+          target="_blank"
+        >
+          <div class="icon">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./images/Logo.png"
+            width="160"
+            height="50"
+            alt="Elene's Bakery logo"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <a href="#" class="logo">
+            <img
+              src="./images/Logo.png"
+              width="160"
+              height="50"
+              alt="Elene's Bakery logo"
+            />
+          </a>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Food</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">About Me</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Made With Love🧁💞</p>
+          </div>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- HERO -->
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./images/test1.png"
+                  width="1880"
+                  height="950"
+                  alt="food image"
+                  class="img-cover"
+                />
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">
+                Simple and Tasty
+              </p>
+              <h1 class="display-1 hero-title slider-reveal">
+                Where Every Bite <br />
+                Feels Like Home
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">Tasteful Memories</p>
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View More</span>
+                <span class="text text-2" aria-hidden="true">View More</span>
+              </a>
+            </li>
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./images/test2.png"
+                  width="1880"
+                  height="950"
+                  alt="food image"
+                  class="img-cover"
+                />
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">
+                Taste Sensation
+              </p>
+              <h1 class="display-1 hero-title slider-reveal">
+                Baking Happiness, <br />
+                Serving Joy
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">Joyful Baking</p>
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View More</span>
+                <span class="text text-2" aria-hidden="true">View More</span>
+              </a>
+            </li>
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./images/test3.png"
+                  width="1880"
+                  height="950"
+                  alt="food image"
+                  class="img-cover"
+                />
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">
+                Simple and Tasty
+              </p>
+              <h1 class="display-1 hero-title slider-reveal">
+                Crafting Sweet Moments, <br />
+                Fresh from the Oven
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">Homemade Happiness</p>
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View More</span>
+                <span class="text text-2" aria-hidden="true">View More</span>
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+          <a href="#menu" class="hero-btn has-after">
+            <img
+              src="./images/cupcake.svg"
+              width="48"
+              height="48"
+              alt="booking icon"
+            />
+            <span class="label-2 text-center span">Check Out</span>
+          </a>
+        </section>
+
+        <!-- SERVICES -->
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Mixing Delights with Love</p>
+            <h2 class="headline-1 section-title">My Journey</h2>
+            <p class="section-text">
+              Baking with love, where every creation is a personal touch.
+            </p>
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a
+                    href="detail.html?food=ricottaCookie"
+                    class="has-before hover:shine"
+                  >
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./images/cake1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="service image"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Cookies</a>
+                    </h3>
+                    <a
+                      href="detail.html?food=ricottaCookie"
+                      class="btn-text hover-underline label-2"
+                      >View Recipe
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <a
+                    href="detail.html?food=bread"
+                    class="has-before hover:shine"
+                  >
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./images/bread1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="service image2"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Breads</a>
+                    </h3>
+                    <a
+                      href="detail.html?food=bread"
+                      class="btn-text hover-underline label-2"
+                      >View Recipe</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <a
+                    href="detail.html?food=brownie"
+                    class="has-before hover:shine"
+                  >
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./images/cake2.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="service image3"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="detail.html?food=brownie">Cakes</a>
+                    </h3>
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >View Recipe</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./images/shape-1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="./images/shape-2.png"
+              width="342"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">My Story</p>
+              <h2 class="headline-1 section-title">Find a Vacation Everyday</h2>
+              <p class="section-text">
+                Manifesting a daily getaway revolves around embracing what you
+                adore and channeling it into your favorite hobbies that unlock
+                your inner freedom. When you participate in your favorite
+                activities, whether it's cooking, crafting, or pursuing
+                something you love, you become a way to express all the
+                different emotions. Every pursuit becomes a journey with
+                creativity knowing no bounds, injecting joy into every scene and
+                making moments that feel like awesome details.
+              </p>
+              <div class="contact-label">Follow My Vacation</div>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1"> My Bakeries</span>
+                <span class="text text-2" aria-hidden="true">My Bakeries</span>
+              </a>
+            </div>
+            <figure class="about-banner">
+              <img
+                src="./images/logoAbout.png"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="about"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./images/chef.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./images/do.png"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+            </figure>
+
+            <img
+              src="./images/cocoa.png"
+              width="197"
+              height="194"
+              loading="lazy"
+              alt="shape"
+              class="shape"
+            />
+          </div>
+        </section>
+
+        <!-- FAV BAKE -->
+
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+          <div class="special-dish-banner">
+            <img
+              src="./images/idk.png"
+              width="940"
+              height="900"
+              alt="special dish"
+              class="img-cover"
+            />
+          </div>
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <img
+                src="./images/badge-1.png"
+                width="28"
+                height="41"
+                alt="badge"
+                class="abs-img"
+              />
+
+              <p class="section-subtitle label-2">Straight From Oven</p>
+
+              <h2 class="headline-1 section-title">Berry Cream Tart</h2>
+              <p class="section-text">
+                he careful selection of the juiciest berries and the delicate
+                balance of cream and pastry unfolded in a symphony of taste.This
+                Berry Cream Tart isn't just a treat; it's a slice of passion and
+                an invitation to savor life's sweetest moments.
+              </p>
+              <div class="wrapper">
+                <del class="del body-3">Elene's</del>
+                <span class="span body-1">Bakery</span>
+              </div>
+
+              <a href="detail.html?food=berries" class="btn btn-primary">
+                <span class="text text-1">View Recipe</span>
+                <span class="text text-2" aria-hidden="true">View Recipe</span>
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="./images/shape-4.png"
+            width="179"
+            height="359"
+            loading="lazy"
+            alt=""
+            class="shape shape-1"
+          />
+
+          <img
+            src="./images/slice.png"
+            width="351"
+            height="462"
+            loading="lazy"
+            alt=""
+            class="shape shape-2"
+          />
+        </section>
+
+        <!-- BAKERIES -->
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">
+              Special Selection
+            </p>
+
+            <h2 class="headline-1 section-title text-center">
+              Delicious Bakeries
+            </h2>
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <a href="detail.html?food=applePie">
+                      <img
+                        src="./images/applePie2.png"
+                        width="100"
+                        height="100"
+                        alt="apple pie"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="detail.html?food=applePie" class="card-title"
+                          >Apple Pie</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">🥧</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Butter, Eggs, Flour, Sugar, Vanilla, Matsoni, Baking
+                      Powder, Lime Juice, Apple
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <a href="detail.html?food=ricottaCookie">
+                      <img
+                        src="./images/cookieGlazed.png"
+                        width="100"
+                        height="100"
+                        alt="cookie"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a
+                          href="detail.html?food=ricottaCookie"
+                          class="card-title"
+                          >Ricotta Cookie</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">🍪</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Butter, Sugar, Eggs, Vanilla, Flour, Baking Powder, Baking
+                      Soda, Salt, Liqueur
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <a href="detail.html?food=maritozzi">
+                      <img
+                        src="./images/maritozzi2.png"
+                        width="100"
+                        height="100"
+                        alt="maritozzi"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="detail.html?food=maritozzi" class="card-title"
+                          >Maritozzi</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">🥯</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Flour, Sugar, Yeast, Salt, Honey, Egg, Vanilla, Oil, Lime
+                      Zest, Milk, Cream
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <a href="detail.html?food=carrotCake">
+                      <img
+                        src="./images/carrotCake.png"
+                        width="100"
+                        height="100"
+                        alt="Carrot Cake"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="detail.html?food=carrotCake" class="card-title"
+                          >Carrot Cake</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">🥮</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Carrot, Walnuts, Butter, Flour, Sugar, Egg, Milk, Vanilla,
+                      Baking Soda, Baking Powder, Orange Zest
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <a href="detail.html?food=strawberry">
+                      <img
+                        src="./images/strawberryCake.png"
+                        width="100"
+                        height="100"
+                        alt="Strawberry Cake"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="detail.html?food=strawberry" class="card-title"
+                          >Strawberry Tiramisu</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">🍰</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Strawberries, Lemon Juice, Maskapone, Cold Cream, Egg,
+                      Sugar
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <a href="detail.html?food=focaccia">
+                      <img
+                        src="./images/italianBread.png"
+                        width="100"
+                        height="100"
+                        alt="Italian Bread"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="detail.html?food=focaccia" class="card-title"
+                          >Focaccia</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">🍞</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Flour, Yeast, Salt, Olive Oil, Rosemary, Tomato, Black
+                      Olives
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- TESTIMONIAL -->
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./images/eliko.png')"
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">
+              Never let fear of striking out, keep you from playing the game...
+              keep fighting!
+            </p>
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+            <div class="profile">
+              <img
+                src="./images/el.png"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt="avatar"
+                class="img"
+              />
+              <p class="label-2 profile-name">Elene</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FEEDBACK -->
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h2 class="headline-1 text-center">Feedback Board</h2>
+                <p class="form-text text-center">Your Opinion Matters 💗</p>
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="off"
+                    placeholder="Your Email"
+                    class="input-field"
+                  />
+                </div>
+
+                <div class="input-wrapper"></div>
+
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  autocomplete="off"
+                  class="input-field"
+                ></textarea>
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Send Message</span>
+                  <span class="text text-2" aria-hidden="true"
+                    >Send Message</span
+                  >
+                </button>
+              </form>
+
+              <div
+                class="form-right text-center"
+                style="background-image: url('./images/form-pattern.png')"
+              >
+                <h2 class="headline-1 text-center">Follow Me</h2>
+
+                <div class="separator"></div>
+                <p class="contact-label">Instagram</p>
+                <a
+                  href="https://www.instagram.com/elenetarkhnishvili/"
+                  target="_blank"
+                >
+                  <ion-icon
+                    name="logo-instagram"
+                    class="social-icon"
+                  ></ion-icon>
+                </a>
+
+                <p class="contact-label">TikTok</p>
+                <a
+                  href="https://www.tiktok.com/@elenetarkhnishvili"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-tiktok" class="social-icon"></ion-icon>
+                </a>
+
+                <p class="contact-label">Facebook</p>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100000920810805"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">Elene's Bakery</p>
+            <h2 class="headline-1 section-title">My Strength</h2>
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/features-icon-1.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+                  <h3 class="title-2 card-title">Best Quality Ingredients</h3>
+                  <p class="label-1 card-text">
+                    Every creation should be a masterpiece, and that begins with
+                    my commitment to using only the finest, premium ingredients.
+                  </p>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/features-icon-2.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+                  <h3 class="title-2 card-title">Homemade Bakery</h3>
+                  <p class="label-1 card-text">
+                    At Elene's Bakery, homemade is the heart of our creations.
+                    Infused with care and crafted with love, each treat brings
+                    the familiar comfort of home to your palate.
+                  </p>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/features-icon-3.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+                  <h3 class="title-2 card-title">Passionate Chef</h3>
+                  <p class="label-1 card-text">
+                    My passion for cooking is the secret ingredient behind every
+                    delightful creation.
+                  </p>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/features-icon-4.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+                  <h3 class="title-2 card-title">Event & Party</h3>
+                  <p class="label-1 card-text">
+                    Bringing Joy to Gatherings: At Elene's Bakery making
+                    cherished moments even sweeter for friends and family.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./images/cupcake.png"
+              alt="shape"
+              width="208"
+              height="178"
+              loading="lazy"
+              class="shape shape-1"
+            />
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer
+          class="footer section has-bg-image text-center"
+          style="background-image: url('./images/footer.png')"
+          id="contact"
+        >
+          <div class="container">
+            <div class="footer-top grid-list">
+              <div class="footer-brand has-before has-after">
+                <a href="#" class="logo">
+                  <img
+                    src="./images/footerLogo.png"
+                    width="160"
+                    height="50"
+                    loading="lazy"
+                    alt="logo"
+                  />
+                </a>
+                <address class="body-4">
+                  "This is what dreams are made of
+                </address>
+                <a href="#" class="body-4 contact-link">Shout to the sky</a>
+
+                <a href="#" class="body-4 contact-link"
+                  >This what dreams are made of"</a
+                >
+
+                <p class="body-4">🧁</p>
+                <div class="wrapper">
+                  <div class="separator"></div>
+                  <div class="separator"></div>
+                  <div class="separator"></div>
+                </div>
+
+                <p class="title-1">Get New Recipes</p>
+
+                <form action="" class="input-wrapper">
+                  <div class="icon-wrapper">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                    <input
+                      type="email"
+                      name="email_address"
+                      class="input-field"
+                      placeholder="Your Email"
+                      autocomplete="off"
+                    />
+                  </div>
+
+                  <button type="submit" class="btn btn-secondary">
+                    <span class="text text-1">Subscribe</span>
+                    <span class="text text-2" aria-hidden="true"
+                      >Subscribe</span
+                    >
+                  </button>
+                </form>
+              </div>
+
+              <ul class="footer-list">
+                <li>
+                  <a href="#" class="label-2 footer-link hover-underline"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#menu" class="label-2 footer-link hover-underline"
+                    >Food</a
+                  >
+                </li>
+                <li>
+                  <a href="#about" class="label-2 footer-link hover-underline"
+                    >About Me</a
+                  >
+                </li>
+                <li>
+                  <a href="#contact" class="label-2 footer-link hover-underline"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="footer-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100000920810805"
+                    class="label-2 footer-link hover-underline"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/elenetarkhnishvili/"
+                    class="label-2 footer-link hover-underline"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.tiktok.com/@elenetarkhnishvili"
+                    class="label-2 footer-link hover-underline"
+                    target="_blank"
+                    >TikTok</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.threads.net/@elenetarkhnishvili"
+                    class="label-2 footer-link hover-underline"
+                    target="_blank"
+                    >Threads</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-bottom">
+              <p class="copyright">
+                &copy; 2023 Elene's Bakery. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </footer>
+
+        <!-- BACK TO TOP BUTTON -->
+
+        <a
+          href="#top"
+          class="back-top-btn"
+          aria-label="back to top"
+          data-back-top-btn
+        >
+          <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+        </a>
+      </article>
+    </main>
+
+    <script src="app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

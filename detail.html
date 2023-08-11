@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Food</title>
+  </head>
+  <body style="overflow-y: auto; overflow-x: hidden; height: 100vh">
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span"
+            >Restaurant St, Delicious City, London 9578, UK</span
+          >
+        </address>
+        <div class="separator"></div>
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Daily : 8.00 am to 10.00 pm</span>
+        </div>
+        <a
+          href="https://www.instagram.com/elenetarkhnishvili/"
+          class="topbar-item link"
+          target="_blank"
+        >
+          <div class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+        </a>
+        <div class="separator"></div>
+        <a
+          href="https://www.tiktok.com/@elenetarkhnishvili"
+          class="topbar-item link"
+          target="_blank"
+        >
+          <div class="icon">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" style="position: static" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./images/Logo.png"
+            width="160"
+            height="50"
+            alt="Elene's Bakery logo"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <a href="#" class="logo">
+            <img
+              src="./images/Logo.png"
+              width="160"
+              height="50"
+              alt="Elene's Bakery logo"
+            />
+          </a>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Food</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">About Me</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Made With Love🧁💞</p>
+          </div>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <div class="card-wrapper">
+      <div class="card">
+        <!-- card left -->
+        <div class="product-imgs">
+          <div class="img-display">
+            <div class="img-showcase">
+              <img
+                src=""
+                alt="Food image"
+                class="image-detail"
+                id="foodImage"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class="product-content">
+          <h2 class="product-title" id="foodTitle"></h2>
+
+          <div class="product-detail">
+            <h2>Instructions:</h2>
+            <p id="foodInstructions"></p>
+          </div>
+
+          <div class="purchase-info">
+            <a href="" class="btn btn-primary" target="_blank" id="videoLink">
+              <span class="text text-1">Watch The Video</span>
+              <span class="text text-2" aria-hidden="true"
+                >Watch The Video</span
+              >
+            </a>
+          </div>
+
+          <div class="social-links">
+            <p>Follow Me At:</p>
+            <a href="" class="social-link facebook" id="facebookLink">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="social-link instagram" id="instagramLink">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="social-link tiktok" id="tiktokLink">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="details.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
